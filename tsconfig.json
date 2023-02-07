@@ -6,6 +6,8 @@
         "moduleResolution": "Node",
         "lib": ["ES2015", "DOM", "DOM.Iterable"],
         "noImplicitAny": true, // type에 대해서 지정을 안해줬다면, 일단 any라도 지정을 해줘라라는 옵션
+        // @types가 없을 때 사용자가 임의로 type을 지정하는 방법
+        "typeRoots": ["./node_modules/@types"] // ,"./types"] // ./types 경로에 있는 선언 파일을 가지고 라이브러리를 정의 및 선언한다. 
     },
     "include": ["./src/**/*"]
 }
