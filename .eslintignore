@@ -1,2 +1,3 @@
 // eslint가 적용되지 않을 목록들
 node_modules
+dist
