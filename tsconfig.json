@@ -3,6 +3,7 @@
         "allowJs": true,
         "target": "ES5",
         "outDir": "./dist",
+        "strict": true,
         "moduleResolution": "Node",
         "lib": ["ES2015", "DOM", "DOM.Iterable"],
         "noImplicitAny": true, // type에 대해서 지정을 안해줬다면, 일단 any라도 지정을 해줘라라는 옵션
